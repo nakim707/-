@@ -34,8 +34,10 @@ $(function () {
   // ---------- popup
   $(".notice li:first-child").on("click", function () {
     $(".popup").show();
+    $(".black").show();
   });
   $("button").on("click", function () {
     $(".popup").hide();
+    $(".black").hide();
   });
 });
